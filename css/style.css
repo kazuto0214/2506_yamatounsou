@@ -1633,7 +1633,7 @@ code,kbd,pre,samp,tt {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/ico_arrow02.svg)
+  background-image: url(../files/mock/assets/img/ico_arrow02.svg)
 }
 
 .slick-prev {
@@ -2460,12 +2460,12 @@ http://humaan.com
   font-weight: 500;
   font-size: 1.4rem;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/day_btn@2x.png)
+  background-image: url(../files/mock/assets/img/day_btn@2x.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .modal_close {
-      background-image:url(/files/mock/assets/img/day_btn@2x.png)
+      background-image:url(../files/mock/assets/img/day_btn@2x.png)
   }
 }
 
@@ -2924,12 +2924,12 @@ input[type=checkbox]:checked+label::after {
   padding: 180px 0 60px;
   background-size: cover;
   background-position: center top;
-  background-image: url(/files/mock/assets/img/footer_bg@2x.png)
+  background-image: url(../files/mock/assets/img/footer_bg@2x.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .l-footer {
-      background-image:url(/files/mock/assets/img/footer_bg@2x.png)
+      background-image:url(../files/mock/assets/img/footer_bg@2x.png)
   }
 }
 
@@ -3818,22 +3818,22 @@ input[type=checkbox]:checked+label::after {
   margin: 0 0 -140px;
   background-size: cover;
   background-position: center center;
-  background-image: url(/files/mock/assets/img/training_bg.jpg)
+  background-image: url(../files/mock/assets/img/training_bg.jpg)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_band {
-      background-image:url(/files/mock/assets/img/training_bg@2x.jpg)
+      background-image:url(../files/mock/assets/img/training_bg@2x.jpg)
   }
 }
 
 .p-index_band.-philosophy {
-  background-image: url(/files/mock/assets/img/philosophy_bg.jpg)
+  background-image: url(../files/mock/assets/img/philosophy_bg.jpg)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_band.-philosophy {
-      background-image:url(/files/mock/assets/img/philosophy_bg@2x.jpg)
+      background-image:url(../files/mock/assets/img/philosophy_bg@2x.jpg)
   }
 }
 
@@ -3922,12 +3922,12 @@ input[type=checkbox]:checked+label::after {
   height: 57px;
   z-index: -1;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/training_circle.png)
+  background-image: url(../files/mock/assets/img/training_circle.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_training__card .head .ico::after {
-      background-image:url(/files/mock/assets/img/training_circle@2x.png);
+      background-image:url(../files/mock/assets/img/training_circle@2x.png);
       width: 43px;
       height: 43px;
   }
@@ -3960,7 +3960,7 @@ input[type=checkbox]:checked+label::after {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url(/files/mock/assets/img/ico_check.svg);
+  background-image: url(../files/mock/assets/img/ico_check.svg);
   background-size: cover;
   margin-right: 10px;
   vertical-align: middle
@@ -3980,12 +3980,12 @@ input[type=checkbox]:checked+label::after {
   max-width: 1050px;
   margin: 0 auto 145px;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/day_bg.jpg)
+  background-image: url(../files/mock/assets/img/day_bg.jpg)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_day {
-      background-image:url(/files/mock/assets/img/day_bg@2x.jpg)
+      background-image:url(../files/mock/assets/img/day_bg@2x.jpg)
   }
 }
 
@@ -4064,12 +4064,12 @@ input[type=checkbox]:checked+label::after {
   padding-top: 35px;
   font-family: "Montserrat",sans-serif;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/day_btn.png)
+  background-image: url(../files/mock/assets/img/day_btn.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_day__more {
-      background-image:url(/files/mock/assets/img/day_btn@2x.png)
+      background-image:url(../files/mock/assets/img/day_btn@2x.png)
   }
 }
 
@@ -4324,12 +4324,12 @@ input[type=checkbox]:checked+label::after {
   letter-spacing: .25rem;
   padding-top: 30px;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/interview_btn.png)
+  background-image: url(../files/mock/assets/img/interview_btn.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_interview__box .more {
-      background-image:url(/files/mock/assets/img/interview_btn@2x.png)
+      background-image:url(../files/mock/assets/img/interview_btn@2x.png)
   }
 }
 
@@ -4463,12 +4463,12 @@ input[type=checkbox]:checked+label::after {
   bottom: 20px;
   background-size: cover;
   border-radius: 10px;
-  background-image: url(/files/mock/assets/img/interview_prof.jpg)
+  background-image: url(../files/mock/assets/img/interview_prof.jpg)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_interview__modal .head .prof {
-      background-image:url(/files/mock/assets/img/interview_prof.jpg)
+      background-image:url(../files/mock/assets/img/interview_prof.jpg)
   }
 }
 
@@ -4899,13 +4899,13 @@ input[type=checkbox]:checked+label::after {
   padding: 40px 20px;
   border-radius: 60px;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/btn_bg@2x.png);
+  background-image: url(../files/mock/assets/img/btn_bg@2x.png);
   position: relative
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-index_entry__btn a {
-      background-image:url(/files/mock/assets/img/btn_bg@2x.png)
+      background-image:url(../files/mock/assets/img/btn_bg@2x.png)
   }
 }
 
@@ -5931,13 +5931,13 @@ input[type=checkbox]:checked+label::after {
   color: #fff;
   font-size: 2.2rem;
   background-size: cover;
-  background-image: url(/files/mock/assets/img/btn_bg@2x.png);
+  background-image: url(../files/mock/assets/img/btn_bg@2x.png);
   position: relative
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .p-entry_form__submit .btn {
-      background-image:url(/files/mock/assets/img/btn_bg@2x.png)
+      background-image:url(../files/mock/assets/img/btn_bg@2x.png)
   }
 }
 
@@ -6305,12 +6305,12 @@ input[type=checkbox]:checked+label::after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-image: url(/files/mock/assets/img/bg01@2x.png)
+  background-image: url(../files/mock/assets/img/bg01@2x.png)
 }
 
 @media only screen and (min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
   .u-bg01::before {
-      background-image:url(/files/mock/assets/img/bg01@2x.png)
+      background-image:url(../files/mock/assets/img/bg01@2x.png)
   }
 }
 
