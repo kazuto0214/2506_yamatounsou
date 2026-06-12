@@ -2399,6 +2399,9 @@ http://humaan.com
       left: 20px;
       right: auto
   }
+  .modaal-content-container .flow img{
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -2973,7 +2976,9 @@ input[type=checkbox]:checked+label::after {
   border-right: 1px solid #ccc;
   line-height: 15px
 }
-
+.l-header__logo img{
+  width: 257px;
+}
 @media only screen and (max-width: 767px) {
   .l-header {
       padding:4.5vw 3.9vw
@@ -3091,7 +3096,9 @@ input[type=checkbox]:checked+label::after {
   right: 70px;
   z-index: 100
 }
-
+.c-entry img{
+  width: 240px;
+}
 .c-entry.is-fixed {
   -webkit-transform: scale(.7);
   transform: scale(.7);
@@ -3603,6 +3610,10 @@ input[type=checkbox]:checked+label::after {
   width: 100%;
   z-index: 10
 }
+.p-kv__copy .ja img{
+  width: 200px;
+
+}
 
 .p-kv__copy .en {
   display: inline-block;
@@ -3631,12 +3642,13 @@ input[type=checkbox]:checked+label::after {
   -webkit-transition-delay: .4s;
   transition-delay: .4s
 }
-
+.p-kv__main img{
+  width: 980px;
+}
 .p-kv__main img,.p-kv__sub img {
   -webkit-filter: drop-shadow(10px 10px 20px rgba(0,0,0,.09));
   filter: drop-shadow(10px 10px 20px rgba(0,0,0,.09));
-  border-radius: 30px;
-  
+  border-radius: 15px;
 }
 
 .p-kv__main.is-view {
@@ -3663,6 +3675,15 @@ input[type=checkbox]:checked+label::after {
     width: 500px;
   } 
 }
+@media screen and (max-width:768px){
+  .p-kv__main img{
+    border-radius: 15px;
+  }
+  .p-kv__sub img {
+    border-radius: 7px;
+  }
+}
+
 .p-index_about {
   text-align: center;
   margin-bottom: 75px;
@@ -3672,7 +3693,9 @@ input[type=checkbox]:checked+label::after {
 .p-index_about__title {
   margin-bottom: 50px
 }
-
+.p-index_about__title img{
+  width: 600px;
+}
 .p-index_about__title .en {
   display: block;
   width: 135px;
@@ -3722,7 +3745,9 @@ input[type=checkbox]:checked+label::after {
   display: block;
   margin-bottom: 5px
 }
-
+.p-index_feature__title .en img{
+  width: 63px;
+}
 .p-index_feature__title .ja {
   font-weight: 500;
   font-size: 2.4rem;
@@ -3750,8 +3775,8 @@ input[type=checkbox]:checked+label::after {
   border-radius: 10px;
   overflow: hidden;
   margin: 0 15px 35px;
-  -webkit-box-shadow: 8px 8px 20px 0 rgba(0,0,0,.03);
-  box-shadow: 8px 8px 20px 0 rgba(0,0,0,.03);
+  -webkit-box-shadow: 8px 8px 20px 0 rgba(0,0,0,.08);
+  box-shadow: 8px 8px 20px 0 rgba(0,0,0,.08);
   width: 350px
 }
 
@@ -3844,6 +3869,11 @@ input[type=checkbox]:checked+label::after {
   padding: 65px 0 0;
   position: relative
 }
+@media (min-width: 768px){
+  .p-index_training .c-ttl01 img{
+    width: 294px;
+  }
+}
 
 .p-index_training__slider {
   width: 1025px;
@@ -3932,9 +3962,13 @@ input[type=checkbox]:checked+label::after {
       height: 43px;
   }
 }
-
-.c-entry a,.p-index_training__card .head .ico img {
-  display: inline-block
+.c-entry a{
+  display: inline-block;
+  width:240px;
+}
+.p-index_training__card .head .ico img {
+  display: inline-block;
+  width:70px;
 }
 
 .p-index_training__card .head .ttl {
@@ -4026,13 +4060,15 @@ input[type=checkbox]:checked+label::after {
 
 .p-index_day__title {
   text-align: right;
-  padding: 68px 150px 95px
+  padding: 68px 240px 95px 150px;
 }
-
+.p-index_day__title img{
+  width: 278px;
+}
 .p-index_day__fukidashi {
   position: absolute;
   top: 70px;
-  right: 60px
+  right: 140px
 }
 
 .p-index_day__img01 {
@@ -4041,13 +4077,17 @@ input[type=checkbox]:checked+label::after {
   top: -40px;
   left: 0;
 }
-
+.p-index_day__img01 img{
+  width: 458px;
+}
 .p-index_day__img02 {
   position: absolute;
   bottom: -80px;
   left: -40px
 }
-
+.p-index_day__img02 img{
+  width: 254px;
+}
 .p-index_day__more {
   width: 133px;
   height: 133px;
@@ -4107,13 +4147,17 @@ input[type=checkbox]:checked+label::after {
   margin-bottom: 35px;
   position: relative
 }
-
+.p-index_day__modal .head p img{
+  width: 278px;
+}
 .p-index_day__modal .head .fukidashi {
   position: absolute;
   top: 75px;
   right: 200px
 }
-
+.p-index_day__modal .head .fukidashi img{
+  width: 160px;
+}
 .p-index_day__modal .flow {
   width: 820px;
   margin: 70px auto 0;
@@ -4157,7 +4201,7 @@ input[type=checkbox]:checked+label::after {
 }
 
 .p-index_day__modal .block:nth-of-type(even) .img {
-  left: calc(-100% + 10px)
+  left: calc(-100% + -50px)
 }
 
 .p-index_day__modal .block.-img {
@@ -4227,6 +4271,11 @@ input[type=checkbox]:checked+label::after {
   margin-bottom: 230px;
   position: relative
 }
+@media (min-width: 768px){
+  .p-index_interview .c-ttl01 img{
+    width: 143px;
+  }
+}
 
 .p-index_interview__list {
   margin: 70px -28px 0;
@@ -4244,7 +4293,9 @@ input[type=checkbox]:checked+label::after {
   border-radius: 10px;
   position: relative
 }
-
+.p-index_interview__box img{
+  width: 345px;
+}
 .p-index_interview__box.is-hover .more {
   bottom: -45px
 }
@@ -4481,7 +4532,7 @@ input[type=checkbox]:checked+label::after {
 .p-index_interview__modal .head .copy {
   position: absolute;
   top: -20px;
-  right: 25px;
+  left: 25px;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
@@ -4530,9 +4581,10 @@ input[type=checkbox]:checked+label::after {
   border-color: #85c8af
 }
 
-.p-index_interview__modal .img {
+.p-index_interview__modal  img{
   text-align: center;
-  margin: 50px 0
+
+  border-radius: 5px;
 }
 
 .p-index_interview__modal .message {
@@ -4872,7 +4924,9 @@ input[type=checkbox]:checked+label::after {
   margin-bottom: 50px;
   padding-bottom: 35px
 }
-
+.p-index_entry__title  img{
+  width: 472px;
+}
 .p-index_entry__title::after {
   content: "";
   position: absolute;
@@ -5036,7 +5090,7 @@ input[type=checkbox]:checked+label::after {
   .p-kv__main {
       width: 127vw;
       position: relative;
-      left: 0vw
+      left: 8vw
   }
 
   .p-kv__sub {
@@ -5101,8 +5155,8 @@ input[type=checkbox]:checked+label::after {
       width: 100%;
       margin: 0;
       font-size: 3.8vw;
-      -webkit-box-shadow: 8px 8px 16px 0 rgba(0,0,0,.05);
-      box-shadow: 8px 8px 16px 0 rgba(0,0,0,.05)
+      -webkit-box-shadow: 8px 8px 16px 0 rgba(0,0,0,.08);
+      box-shadow: 8px 8px 16px 0 rgba(0,0,0,.08)
   }
 
   .p-index_feature__box .title {
@@ -5445,7 +5499,7 @@ input[type=checkbox]:checked+label::after {
   }
 
   .p-index_interview__modal .head .copy {
-      right: 1.5vw
+      left: 1.5vw;
   }
 
   .p-index_interview__modal .head .copy .bg {
@@ -5814,6 +5868,13 @@ input[type=checkbox]:checked+label::after {
 
   .p-index_sns__bnr.-lower .list {
       bottom: -5px
+  }
+  .p-index_about__title img{
+    width: 255px;
+  }
+  .c-entry a{
+
+    width:120px;
   }
 }
 
@@ -6398,7 +6459,11 @@ input[type=checkbox]:checked+label::after {
   background: #fff;
   border-radius: 20px;
 }
-
+@media (min-width: 768px){
+  .p-index_question .c-ttl01 img{
+    width: 183px;
+  }
+}
 
 .question,
 .answer {
@@ -6590,4 +6655,14 @@ td{
     padding:  0;  
   }
 
+}
+@media (max-width: 768px){
+  .p-address{
+padding-bottom: 0;
+  }
+}
+@media (min-width: 768px){
+  .p-index_adress .c-ttl01 img{
+width: 130px;
+  }
 }
